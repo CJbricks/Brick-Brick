@@ -7,7 +7,7 @@ export default function PageHeader() {
         <div class={styles.block}>
                 <Link href="/About"><h4 class={styles.head}>ABOUT</h4></Link>
                 <Link href="/About"><h4 class={styles.head}>CONTACT</h4></Link>
-                <Link href="https://bigcartel.com" target="_blank"><h4 class={styles.headstore}>STORE</h4></Link>
+                <Link href="https://bigcartel.com" target="_blank"><h4 class={styles.head}>STORE</h4></Link>
         </div>
     )
 }

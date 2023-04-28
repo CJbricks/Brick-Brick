@@ -3,18 +3,19 @@ import Link from 'next/link';
 import styles from '@/styles/Home.module.css';
 import Image from 'next/image';
 import PageHeader from '../../src/pages/PageHeader.js';
+import Header from './Header.js';
 
 
 export default function Digital() {
 
-    const imageArr = [whistle, bleach, blvd, dryWall, frogDog, dad, crowns, 
-    jumper, promise, nothingWorks, skatePark, internet, shed, 
-    trashBoy, stand, uBoot, freedom, lasso];
+   // const imageArr = [whistle, bleach, blvd, dryWall, frogDog, dad, crowns, 
+   // jumper, promise, nothingWorks, skatePark, internet, shed, 
+   // trashBoy, stand, uBoot, freedom, lasso];
 
     return (
         
              <div>
-              <PageHeader />
+              <Header />
                <Image 
                src="/images/digitalfold/whistle.jpg"
                width={380}

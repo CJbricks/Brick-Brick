@@ -14,7 +14,7 @@ export default function Directory() {
             <div class={styles.walls}>
                 <div class={styles.containers}>
                     <Link href="/Print">
-                    <h2 class={styles.displaytext}>PRINT</h2>
+                    <p class={styles.displaytext}>PRINT DESIGN</p>
                      <div class={styles.scalebox}>
                             <Image 
                                 class={styles.box}
@@ -28,7 +28,7 @@ export default function Directory() {
                 </div>
                 <div class={styles.containers}>
                 <Link href="/Digital">
-                    <h2 class={styles.displaytext}>DIGITAL</h2>
+                    <h2 class={styles.displaytext}>DIGITAL DESIGN</h2>
                         <div class={styles.scalebox}>
                             <Image 
                                 class={styles.box}
