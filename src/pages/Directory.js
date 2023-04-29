@@ -80,10 +80,7 @@ export default function Directory() {
                 </Link>
                 </div>
                
-            </div>
-            
-
-            <Foot />   
+            </div>  
         </>
     )
 }

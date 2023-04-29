@@ -1,0 +1,19 @@
+.iconig {
+    margin-right: 6%;
+    float: right;
+  }
+  
+  .giticon {
+    float: right;
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+  
+  .footbox {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 100%;
+    height:100%;
+  }
+  

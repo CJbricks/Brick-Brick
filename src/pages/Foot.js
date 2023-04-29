@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '@/styles/Home.module.css';
+import styles from '@/styles/Footer.module.css';
 import Image from 'next/image';
 
 
@@ -7,10 +7,10 @@ import Image from 'next/image';
 export default function Foot() {
    
     return (
-        <div class={styles.footbox}> 
+        <div className={styles.footbox}> 
                <a href="https://www.instagram.com/oreo.blizman/" target="_blank" rel="noopener noreferrer">
                     <Image 
-                    class={styles.iconig}
+                    className={styles.iconig}
                     src='/images/iglogo.png'
                     alt="icon-ig"
                     height={35}
@@ -19,7 +19,7 @@ export default function Foot() {
                 </a>
                 <a href="https://www.github.com/CJbricks" target="_blank" rel="noopener noreferrer">
                     <Image
-                    class= {styles.giticon}
+                    className={styles.giticon}
                     src="/images/gitlogo.png"
                     alt="git-icon"
                     height={35}

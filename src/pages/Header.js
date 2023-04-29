@@ -4,6 +4,7 @@ import styles from '@/styles/Home.module.css';
 import Link from 'next/link';
 import PageHeader from './PageHeader.js'
 import bricksLogo from 'public/images/clogs.png'
+import Foot from './Foot.js'
 
 
 export default function Header() {
@@ -20,6 +21,7 @@ export default function Header() {
                 class={styles.headimage}
                 />
             </div>
+        <Foot />
         </div>
 
             
