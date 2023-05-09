@@ -2,7 +2,6 @@ import React from 'react';
 import styles from '@/styles/Home.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
-import Foot from '/src/pages/Foot.js';
 import Header from '/src/pages/Header.js'
 
 export default function Directory() {
@@ -57,7 +56,7 @@ export default function Directory() {
 
                 <div class={styles.containers}>
                     <Link href="/Branding/Brand">
-                    <h2 class={styles.displaytext}>BRAND DESIGN</h2>
+                    <h2 class={styles.displaytext}>LOGO DESIGN</h2>
                         <Image 
                             class={styles.box}
                             src="/images/Branding/rbcoffee.jpg"

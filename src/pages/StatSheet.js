@@ -1,30 +1,26 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from '@/styles/Home.module.css';
-import { useState } from 'react';
-import Dropbox from '../../src/pages/Dropbox.js';
+import { Text } from '@chakra-ui/react';
+import statsheet from '/public/images/webprojects/screenstat.png';
 
 export default function StatSheet() {
 
-    const [display, setDisplay] = useState(true);
-
     return (
         
-        <div class={styles.webx}onClick={() => { setDisplay(!display) }}>
+        <div class={styles.webx}>
                <Image
-                src="/images/webprojects/screenstat.png"
+                src={statsheet}
                 class={styles.box}
                 width={550}
                 height={350}
                 alt="statsheet-web-screenshot" />
-                
-                { display && <Dropbox 
-                langOne="Javascript"
-                langTwo="HTML"
-                langThree="CSS"
-                langFour="Animate.CSS"
-                langFive="Surge"
-                /> }
+
+                    <Text color="blue.200">
+                    A Javascript game based around the Jomboy media game RefGuess. 
+                    The page is Written in JS and HTML some CSS transitions and effects using the Animate.CSS library.
+                    Deployed to a Surge server.
+                  </Text>
         </div>
     )
 }
